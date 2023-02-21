@@ -25,7 +25,14 @@
 
 
 
-
+                   // BREAKE AND CONTINUE
+  
+                   for (let i=0;i<=10;i++){
+                    if(i==5){
+                        break;
+                    }
+                    console.log(i);
+                   }
 
 
 // Arrays in js 
@@ -74,4 +81,15 @@ raees(arr);
 //         console.log(name);
 //     }
 //  }
+
+
+    let name="raeeskhan";
+    let age="23";
+    let profassion="programmar"
+
+    
+function func1(name,age,profassion){
+    console.log(`my name is ${name} and my age =${age} and i am a ${profassion}`);
+}
+func1(name,age,profassion);
 
