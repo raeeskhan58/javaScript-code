@@ -7,3 +7,14 @@
 .justify-between{
     justify-content: space-between;
 }
+.input-btn{
+    padding: 14px 3px;
+    text-align: center;
+    border-radius: 9px;
+    margin: 6px 20px;
+}
+.search-btn{
+    padding: 13px 3px;
+    margin: 1px 2px;
+    width: 78px;
+}

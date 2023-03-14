@@ -43,16 +43,37 @@
 
 
 
-let str='javaScript';
-let links=document.links;
-console.log(links);
-let href;
-Array.from(links).forEach(function(element){
-  href=element.href;
-  if(href.includes(str)){
-    console.log(links);
-  }
-  else{
-    console.log("javascript links not found");
-  }
-});
+// let str='javaScript';
+// let links=document.links;
+// console.log(links);
+// let href;
+// Array.from(links).forEach(function(element){
+//   href=element.href;
+//   if(href.includes(str)){
+//     console.log(links);
+//   }
+//   else{
+//     console.log("javascript links not found");
+//   }
+// });
+
+
+// let str='phython';
+// let links=document.links;
+// console.log(links);
+// let href;
+// Array.from(links).forEach((element)=>{
+//      href=element.href;
+//      if(href.includes(str))
+//      console.log(href);
+//      else{
+//       console.log("links not found");
+//      }
+// });
+function func1(name,address,age){
+          //  console.log(name,address,age);
+}
+// func1("raees","bajkata");
+let arr=[12,13,14,15,16,17,18,19,20];
+let num=arr.toString();
+console.log()
